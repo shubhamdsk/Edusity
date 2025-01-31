@@ -40,3 +40,8 @@ a {
 .btn svg {
   margin-left: 10px;
 }
+
+.btn.dark-btn {
+  background-color: #050c5b;
+  color: white;
+}
