@@ -1,5 +1,7 @@
 import About from './components/about/About'
 import Campus from './components/campus/Campus'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Programs from './components/programs/Programs'
@@ -20,6 +22,8 @@ const App = () => {
         <Title title='What Student Says' subtitle='Testimonials' />
         <Testimonials />
         <Title title='Get In Touch' subtitle='Contact us' />
+        <Contact />
+        <Footer />
       </div>
     </div>
   )

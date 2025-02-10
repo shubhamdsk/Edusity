@@ -23,7 +23,7 @@ const Testimonials = () => {
         slider.current.style.transform = `translateX(${translatesX}%)`
     }
     return (
-        <div className={Style['testimonials']}>
+        <div className={Style['testimonials']} id='testimonials'>
             <button onClick={slideForward} title='next'>
                 <img src={next_button} alt="" className={Style['next-btn']} />
             </button>

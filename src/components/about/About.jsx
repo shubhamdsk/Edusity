@@ -3,7 +3,7 @@ import about from '../../assets/about.png'
 import play_icon from '../../assets/play_icon.png'
 const About = () => {
     return (
-        <div className={Style['about']}>
+        <div className={Style['about']} id='about'>
             <div className={Style['about-left']}>
                 <img src={about} alt="" className={Style['about-img']} />
                 <img src={play_icon} alt="" className={Style['play-icon']} />

@@ -7,7 +7,7 @@ import program_icon2 from "../../assets/program_icon2.png"
 import program_icon3 from "../../assets/program_icon3.png"
 const Programs = () => {
     return (
-        <div className={Style['programs']}>
+        <div className={Style['programs']} id='program'>
             <div className={Style['program']}>
                 <img src={image1} alt="" />
                 <div className={Style["caption"]}>

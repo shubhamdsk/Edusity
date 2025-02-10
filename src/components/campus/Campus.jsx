@@ -6,7 +6,7 @@ import photo4 from '../../assets/photo4.png'
 import { FaArrowRightLong } from 'react-icons/fa6'
 const Campus = () => {
     return (
-        <div className={Style['campus']}>
+        <div className={Style['campus']} id='campus'>
             <div className={Style['gallery']}>
                 <img src={photo1} alt="" />
                 <img src={photo2} alt="" />
